@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="nav-top">
+      <nav>
+        <a class="logo-image" href="">
+          <img
+            src="assets/images/pngtree-sneaker-shoe-logos-can-be-used-for-store-logos-or-shoe-image_340677.png"
+            alt=""
+            width="100px"
+            ,
+            height="80px"
+          />
+        </a>
+        <div class="container-first">
+          <a href="#"><strong>Home</strong></a>
+          <a href="#">Shope</a>
+          <a href="#">Featured</a>
+          <a href="#">Recommended</a>
+        </div>
+        <div class="inputsearch-container">
+          <img
+            id="image1"
+            src="assets/images/icons8-search-30.png"
+            alt=""
+            width="15px"
+            ,
+            height="15px"
+          />
+          <input
+            type="search"
+            placeholder="Search product..."
+            id="input-search"
+          />
+          <button class="button-serach">
+            <img
+              id="bag"
+              src="assets/images/icons8-shopping-bag-48.png"
+              alt=""
+              width="30px"
+              height="30px"
+            />
+            <span id="cart-count" class="cart-count">0</span>
+          </button>
+        </div>
+       <div id="Mode">
+          <img id="font" class="night" src="assets/images/icons8-switch-48 (1).png" alt="" >
+        </img>
+        
+       </div>
+        <div class="sign">
+          <a href="#"><button class="Sign-up">Sign Up</button></a>
+          <a href="#"><button class="Sign-in">Sign In</button></a>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>
+          Walk with Style <br />and <strong>Comfort</strong>
+        </h1>
+        <p>
+          Buying shoes should leave you feeling great and looking stylish, with a spring in your step. Sneakers, boots, and sandals—we've got your feet covered.
+        </p>
+        <button>Shop Now →</button>
+      </div>
+
+      <div class="hero-img">
+        <img src="assets/images/1013a170-500-1.png" alt="Shoe 1" class="hero-shoe top-left" />
+        <img src="assets/images/7022920204.png" alt="Shoe 2" class="hero-shoe center-right" />
+        <img src="assets/images/SSS2_AS1011B976_400_4570158193290_2 (1).png" alt="Shoe 3" class="hero-shoe bottom-right" />
+      </div>
+    </section>
+
+    <main class="container">
+      <h1 class="container-texxt">Shoes :</h1>
+      <section id="products"></section>
+    </main>
+
+    <div id="product-popup" class="popup">
+      <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <img id="popup-img" src="" alt="" />
+        <h3 id="popup-title"></h3>
+        <p id="popup-desc"></p>
+        <p id="popup-price"></p>
+
+        <div class="product-options">
+          <div class="sizes">
+            <h4>Select Size:</h4>
+            <div id="size-options" class="options-container">
+              </div>
+          </div>
+          <div class="colors">
+            <h4>Select Color:</h4>
+            <div id="color-options" class="options-container">
+              </div>
+          </div>
+        </div>
+        <button id="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div id="cart" class="cart hidden">
+      <h2>Your Cart</h2>
+      <span id="close-cart" class="close-cart">&times;</span>
+      <div id="cart-items"></div>
+      <h3>Total: <span id="cart-total">0</span></h3>
+      <button id="clear-cart-btn">Clear Cart</button>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <p class="footer-text">
+          Developed by
+          <a href="https://gitlab.com/aalhalabi517"><strong>aalhalabi517</strong></a>
+        </p>
+        <div class="footer__">
+          <img class="footer-image" src="assets/images/pngtree-sneaker-shoe-logos-can-be-used-for-store-logos-or-shoe-image_340677.png" alt="" />
+          <h5 class="footer-date">© 2025</h5>
+        </div>
+
+        <p class="footer-text">
+          Fork this project <a href="#"><strong>HERE</strong></a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
